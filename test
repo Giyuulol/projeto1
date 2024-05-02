@@ -1,0 +1,28 @@
+<html>
+<head>
+    <title>Exempl</title>
+    <style>
+        .classeOriginal {
+            background-color: violet;
+        }
+        .classeNova {
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+
+<div id="DIV" class="classeOriginal">exemplo de div</div>
+<button id="BUTTON">Clique AGORA OU MORRA</button>
+
+<script>
+    const DIV = document.getElementById("DIV");
+    const BUTTON = document.getElementById("BUTTON");
+
+    BUTTON.addEventListener("click", function(){
+        DIV.classList.toggle("classeNova");
+    });
+</script>
+
+</body>
+</html>
