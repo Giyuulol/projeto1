@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 :root {
@@ -17,14 +16,13 @@
     letter-spacing: 1px;
 }
 
-main {
-    height: 80vh;
+main {  
+    height: auto;
 }
 
 footer {
     width:100%;
     color: var(--color-neutral-40);
-
 }
 
 .footer-link {
@@ -188,12 +186,17 @@ nav {
     -apple-system, Arial, Helvetica, 
     sans-serif;
     background-color: #23232e;
-    height: 8vh;
+    height: 12vh;
+    z-index: 1000;
+    width: 100%;
+    position: fixed;
+    top: 0;
 }
 
 .nav-list {
     list-style: none;
     display: flex;
+    
 }
 
 .nav-list li {
@@ -204,7 +207,7 @@ nav {
 .titulomain{
     color: #0635f1;
     margin-left: 50pxpx;
-    margin-top: 100px;
+    margin-top: 130px;
     font-size: 30px;
     text-decoration: underline;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -253,13 +256,14 @@ nav {
     margin-left: 50px;
     width: 750px;
     height: 250px;
+    border-radius: 5px;
 
 }
 
 .tambau{
     color: #0635f1;
     margin-left: 50px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     margin-top: 15px;
     text-decoration: underline;
 }
@@ -270,11 +274,119 @@ nav {
     margin-top: 15px;
 }
 
-.imgtambau{
+.textcabo{
+    color: #0635f1;
+    margin-left: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 15px;
+    text-decoration: underline;
+}
+.imgcabo{
     height: 300px;
     width: auto;
     margin-left: 50px;
     margin-top: 15px;
     border: 2px;
     border-radius: 5px;
+}
+.textbessa{
+    color: #0635f1;
+    margin-left: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 15px;
+    text-decoration: underline;
+}
+.imgbessa{
+    height: 300px;
+    width: auto;
+    margin-left: 50px;
+    margin-top: 15px;
+    border: 2px;
+    border-radius: 5px;
+}
+.textbessa2{
+    margin-left: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 15px;
+}
+.textintermares{
+    color: #0635f1;
+    margin-left: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 15px;
+    text-decoration: underline;
+}
+.imgintermares{
+    height: 320px;
+    width: 450px;
+    margin-left: 50px;
+    margin-top: 15px;
+    border: 2px;
+    border-radius: 5px;
+}
+.textintermares2{
+    margin-left: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 15px;
+}
+.textintermares{
+    margin-left: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 15px;
+}
+.textintermares{
+    margin-left: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 15px;
+}
+.textintermares2{
+    margin-left: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 15px;
+}
+.textjacare{
+    color: #0635f1;
+    margin-left: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 15px;
+    text-decoration: underline;
+}
+.imgjacare{
+    height: 300px;
+    width: auto;
+    margin-left: 50px;
+    margin-top: 15px;
+    border: 2px;
+    border-radius: 5px;
+}
+.textjacare2{
+    margin-left: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 15px
+}
+.textpasseios{
+    color: #FF6100;
+    margin-left: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 15px;
+}
+.textcentro{
+    color: #0635f1;
+    margin-left: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 34px;
+    text-decoration: underline;
+}
+.imgcentro{
+    height: 300px;
+    width: auto;
+    margin-left: 50px;
+    margin-top: 15px;
+    border: 2px;
+    border-radius: 5px;
+}
+.textcentro2{
+    margin-left: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 15px
 }
